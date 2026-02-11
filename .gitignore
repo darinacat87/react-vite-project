@@ -7,9 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local environment files
 *.local
 
 # Editor directories and files
@@ -22,3 +27,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# OS temporary files
+Thumbs.db
