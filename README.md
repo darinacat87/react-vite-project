@@ -1,16 +1,45 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Це мій React + Vite проєкт для навчання та демонстрації навичок.  
+Використано npm пакет **lodash** для генерації випадкових чисел.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite project with lodash for learning and practice.
 
-## React Compiler
+## Technologies used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- Lodash
+- CSS (Flexbox, Gradient background)
 
-## Expanding the ESLint configuration
+## Структура проекту
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `react-app/`
+  - `node_modules/` ← встановлені npm пакети
+  - `src/` ← код проекту (App.jsx, main.jsx, App.css)
+  - `public/` ← статичні файли
+  - `index.html` ← HTML-шаблон
+  - `package.json` ← залежності та скрипти
+  - `vite.config.js` ← конфігурація Vite
+
+## Як запустити проект
+
+1. Встановити залежності:
+   npm install
+
+2. Запустити сервер Vite:
+   npm run dev
+
+3. Відкрити браузер за адресою, яку покаже Vite, зазвичай:
+   http://localhost:5173/
+
+Функціонал
+
+- Відображає заголовок та текст на сторінці
+- Генерує випадкове число від 1 до 100 за допомогою lodash
+- Кнопка для генерації нового випадкового числа
+- Весь контент по центру екрану (вертикально та горизонтально)
+- Адаптивний дизайн для мобільних екранів
